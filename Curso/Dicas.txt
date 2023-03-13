@@ -1,0 +1,36 @@
+shift + insert = comentar código rápido html
+
+<nav> - menu de navegação do site, SEMPRE USAR
+<article> - fazer uma lista de posts, por exemplo 
+<section> - tipo uma div, usada pra flexbox
+<display: flex> - vai deixar os conteúdos lado a lado
+<footer> - rodape da pagina
+<Iframe> - tag do site( Pode ser qualquer site) para colocar na página, aparece quando clica em compartilhar
+<display> - Block: faz ficar com espaço de caixa/ Inline : alinha tudo lado a lado/ None: faz o objeto sumir
+<overflow> - faz o texto não passar da caixa
+<overflow: scroll> - cria a rodinha pra abaixar ou subir, se quiser ocultar um dos eixos "overflow-(eixo): hidden ( ou use o "auto").
+<form> - um formulário pra agrupar todos os itens
+<label> - fica antes do input
+<input> - é onde o usuário digita algo, tem diversas classes ex: email, text, etc | (placeholder - vai ser o texto que ficará antes de algo ser escrito)
+<@import> - coloca no arquivo de css pra importar outro arquivo css, semantica é @import "xxxx"
+<Filter> -  possui opções para mudar sua imagem ou QUALQUER coisa
+
+|PSEUDO CLASSE|
+ a:hover - quando passsar o mouse no objeto
+ a: visited(só pra link) - muda algo se o usuário ja  
+ abriu o link
+ 
+|VARIAVEIS|
+:root{} no inicio do css e dentro coloque a variável que quiser, sendo que antes do nome deve ter "--"
+exemplo: --cor-primaria:
+
+|TRANSITION|
+transition -  1 2 3 4 (funciona tipo margin) 
+
+duration - tempo que vai fazer (2)
+property - o objeto que será utilizada a transição (1)
+timing-function - o jeito que a transição será feita (3)
+delay - tempo que fará após a ação começar (4)
+
+
+

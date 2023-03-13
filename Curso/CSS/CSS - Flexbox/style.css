@@ -1,0 +1,30 @@
+.container{
+    height: 600px;
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;  */
+    /*flex-flow: row wrap; */
+    justify-content: space-around;  /* alinha eles com conceitos pre definidos */
+    align-items: center; /* alinha eles na vertical só funciona se o felx for row*/ 
+    align-content: center; /* deixa eles juntos na vertical, principalmente quando há flex wrap*/
+
+} 
+.caixa{
+    width: 100px;
+    height: 100px;
+}  
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}

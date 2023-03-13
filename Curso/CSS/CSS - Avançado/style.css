@@ -1,0 +1,51 @@
+:root {
+    --primary-color: rgba(53, 199, 199, 0.459);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: var(--primary-color);
+}
+.box{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+   
+
+    animation-name: animacao;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+img{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+
+    animation-name: animacao;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+@keyframes animacao {
+    0%{
+        background-color: rgb(0, 162, 255);
+    }
+    33%{
+        transform: translate(600px, 100px);
+    }
+    50%{
+        border: 20px solid black;
+    }
+    100%{
+        border: 0 solid black;
+        background-color: red;
+    }
+    
+}
