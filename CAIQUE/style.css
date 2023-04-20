@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center	;
+	padding: 0 5vh 0 5vh;
+	background-image: url(images.jpeg);
+	background-size:cover;
+	overflow-y: hidden;
+}
+li{
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: #252525;
+}
+.header{
+	width: 100%;
+	height: 15vh;
+	background-color: #3B3835;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+	font-weight: bold;
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+}
+.header ul{
+	display: flex;
+}
+.header .button{
+	padding: 1vw 1.8vw 1vw 1.8vw;
+	margin: 0 3vw 0 3vw;
+	border-radius: 7px;
+	width: 11vw;
+	background-color: #fff;
+	border: 1px solid #AFDBF5;
+	font-size: 16px;
+	font-weight: 500;
+}
+.header .button:hover{
+	background-color: #00BFFF;
+	padding: 1.1vw 1.9vw 1.1vw 1.9vw;
+	font-size: 17px;
+	font-weight: 700;
+	border: 1px solid black;
+	transition: 0.2s;
+}
+.header .button:hover + .submenu{
+	display: block;
+}
+.header .submenu{
+	display: none;
+	width: 7vw;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom:0.5px solid black; 
+	background-color: #00BFFF;
+	position: absolute;
+	text-align: center;
+	margin-left: 3.07vw;
+	margin-top: 1.6vh;
+}
+.header .submenu li{
+	border-bottom: 1px solid black;
+	height: 3vh;
+}
+.header .submenu li:hover{
+	font-size: 17px;
+}
+.header .submenu:hover + .submenu{
+	display: block;
+}
+.home{
+	height: 65vh;
+	width: 85%;
+	margin: 0 7vw 0 7vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:rgba(10,23,55,0.6);
+}
+.frame{
+	width: 55%;
+	height: 60%;
+	background-color: grey;
+	border-radius: 20px;
+}
+.text{
+	width: 85.1%;
+	height: 16vh;
+	background-color: #252525;
+	color: #fff;
+	text-align: left;
+}
+.text h1{
+	margin-top: 1vh;
+	margin-left: 3vw;
+	color: #007FFF;
+}
+.text p{
+	margin: 0 3vw;
+}
+
+
+
+
+
+
+
