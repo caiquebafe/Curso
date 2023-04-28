@@ -1,0 +1,105 @@
+.QuemSomos{ /* Definições da página "Quem Somos" */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+    background: #22495c;  
+    background: -webkit-linear-gradient(to right, #3a6b80, #203A43, #0F2027);  
+    background: linear-gradient(to right, #3b7086, #376270, #193541);
+}
+.QuemSomos .menu{ /* Define a distância do menu pra o objeto abaixo e acima dele */
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+.QuemSomos .menu ul{ 
+    display: flex;
+    list-style: none;
+    justify-content: center ;
+}
+.QuemSomos .menu ul li{ /* Definições dos itens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4vw 0 4vw ;
+    width: 7vw;
+}
+.QuemSomos .menu span{ /* Definições dos símbolos separando os itens */
+    display: flex;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.QuemSomos .menu ul li a{  /* Definições dos textos dentro dos itens */
+    color: white;
+    background-color: #0F2027;
+    text-decoration: none;
+    padding: 0.68vw 0.98vw 0.68vw;
+    font-size: 0.9vw;
+    border-radius: 50px;
+}
+.QuemSomos .container{ /* Definições da "caixa" */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #9e9e9e;
+    border-radius: 25px;
+    height: 65vh;  
+    width: 50vw;
+    overflow-x: hidden;
+    overflow-y:hidden ;
+
+}
+.QuemSomos .container .division{
+    background-color: #22495c; ;
+    height: 101%;
+    width: 1%;
+}
+.QuemSomos .container .image{
+    background-color: #fff;
+    height: 100%;
+    width: 59%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.QuemSomos .container .image img{
+    width: 100%;
+    height: 100%;
+}
+.QuemSomos .container .text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    width: 40%;
+    background-color: #f8f8ffa6;
+}
+.QuemSomos .container .text h1{
+    color: #1a3846;  
+    color: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    color: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    font-size: 32px;
+}
+.QuemSomos .container .text p{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+
+/* ******************** */
+/******** QUEMSOMOS - OPTIONS -- HOVER -- **********/
+/* ******************** */
+
+.QuemSomos .menu ul li a:hover{  
+    color:var(--black);
+    background-color: var(--white);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.04);
+}

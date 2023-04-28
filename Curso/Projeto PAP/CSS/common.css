@@ -1,0 +1,18 @@
+:root{ /* Parte do CSS feita para declaração de variáveis */
+    --color-primary: #239da8;
+    --white:#fff;
+    --darkerWhite:#ffffffc4;
+    --black: #252525;
+    --color-secundary: #34d0df;
+}
+
+*{ /* serão comandos feitos para padronizar todos os objetos do site */
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden; /* esconde a barra de rolagem horizontal */
+}
